@@ -1,0 +1,43 @@
+.auth-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.auth-box {
+  background: linear-gradient(135deg,#001d3d,#003566);
+  padding: 35px;
+  width: 350px;
+  border-radius: 14px;
+  box-shadow: 0 0 40px #00f7ff;
+  animation: pop 0.3s ease;
+}
+
+.auth-box input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background: #020c1b;
+  color: white;
+  border: 1px solid #00f7ff;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 10px;
+  background: #00f7ff;
+  font-weight: bold;
+  border: none;
+}
+
+.error { color: #ff6b6b; }
+.switch { color: #00f7ff; cursor: pointer; }
+
+@keyframes pop {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}

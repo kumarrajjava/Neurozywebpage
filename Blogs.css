@@ -1,0 +1,20 @@
+.blogs {
+  padding: 140px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.blogs-card {
+  max-width: 640px;
+  padding: 60px;
+  text-align: center;
+  background: rgba(15, 23, 42, 0.85);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 22px;
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.3);
+}
+
+.blogs span {
+  color: #00f7ff;
+}
