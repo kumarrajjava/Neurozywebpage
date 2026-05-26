@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Neurozy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Neurozy** is a private web application project designed for task management, bug tracking, and future team collaboration. This repository is the central hub for all development, project tracking, and documentation. It is built as a web application using **Node.js** for backend and **React** for frontend.  
 
-## Available Scripts
+This repository is **private** and is intended for founder-led development initially, with future team expansion in mind.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Tech Stack](#tech-stack)
+4. [Folder Structure](#folder-structure)
+5. [Setup Instructions](#setup-instructions)
+6. [Git & Project Management](#git--project-management)
+7. [Contributing](#contributing)
+8. [Future Roadmap](#future-roadmap)
+9. [License](#license)
+10. [Notes](#notes)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Project Overview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Neurozy aims to provide a clean, organized platform for managing development tasks, tracking code bugs, and planning future team collaboration. As a founder-led initiative, the project emphasizes simplicity, privacy, and scalability.
 
-### `npm run build`
+Key objectives:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Start as a private repository for founder-led development.
+- Enable tracking of tasks, bugs, and project milestones.
+- Provide a clear structure for future team collaboration.
+- Launch a minimal viable website first, with the option to expand to mobile or desktop apps later.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+- **Daily Task Management** – Track tasks using Kanban boards.
+- **Bug Tracking** – Report, track, and fix bugs efficiently.
+- **Future Team Planning** – Add team members easily when scaling.
+- **Private & Secure** – All project data remains private initially.
+- **MVP Website** – Web application built with Node.js (backend) and React (frontend).
+- **Documentation Folder** – Keep project notes, guidelines, and process documentation.
+- **Test Scripts** – Dedicated folder for testing backend and frontend features.
+- **GitHub Workflows** – Optional automation for deployment, CI/CD, or notifications.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Frontend:** React  
+- **Backend:** Node.js / Express  
+- **Database:** To be decided (MongoDB / PostgreSQL recommended)  
+- **Version Control:** Git + GitHub (Private Repository)  
+- **Project Management:** GitHub Projects (Kanban + Bug Tracker + Team Planning)  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Folder Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
