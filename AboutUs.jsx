@@ -49,6 +49,7 @@ const sections = [
 ];
 
 
+
 const AboutUs = () => {
   const [visible, setVisible] = useState(false);
   const gridRef = useRef(null);
