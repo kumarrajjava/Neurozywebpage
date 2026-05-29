@@ -2,6 +2,7 @@
 
 **Neurozy** is a private web application project designed for task management, bug tracking, and future team collaboration. This repository is the central hub for all development, project tracking, and documentation. It is built as a web application using **Node.js** for backend and **React** for frontend.  
 
+
 This repository is **private** and is intended for founder-led development initially, with future team expansion in mind.
 
 ---
